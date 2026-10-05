@@ -1,0 +1,59 @@
+# dependencies & build output
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+
+# local evidence store — regenerated from the seed on first run
+.data
+
+# vercel
+.vercel
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+
+# stray media dropped in the project root (kept locally, not in the repo)
+/*.mp4
+/*.mov
+/*.zip
+
+.vercel
+.env*
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Production
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+
+# Vercel
+.vercel/
